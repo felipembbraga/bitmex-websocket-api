@@ -5,7 +5,7 @@
  */
 
 import _ from "lodash";
-import BitmexClient from "BitmexClient";
+import BitmexClient from "../BitmexClient";
 
 export default {
     /**

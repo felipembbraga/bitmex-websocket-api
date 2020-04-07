@@ -1,10 +1,10 @@
 import querystring from "query-string";
 import _ from "lodash";
-import { ReconnectingWebSocket } from "lib/ReconnectingWebSocket";
+import { ReconnectingWebSocket } from "./lib/ReconnectingWebSocket";
 import { EventEmitter2 } from "eventemitter2";
 import WebSocket from "ws";
-import deltaParser from "lib/deltaParser";
-import getStream from "lib/getStream";
+import deltaParser from "./lib/deltaParser";
+import getStream from "./lib/getStream";
 
 const DEFAULT_MAX_TABLE_LEN = 10000;
 

@@ -1,25 +1,22 @@
 {
     "name": "bitmex-websocket-api",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Bitmex WebSocket Client",
     "repository": "https://github.com/felipembbraga/bitmex-websocket-api",
     "author": "Felipe Mendes Braga <felipe.mendes.braga@gmail.com>",
     "license": "MIT",
     "types": "src/index.ts",
     "files": [
-      "build/**/*",
-      "src/**/*"
+        "build/**/*",
+        "src/**/*"
     ],
     "scripts": {
-      "typedoc": "typedoc",
-      "build": "tsc",
-      "test": "NODE_ENV=test jest",
-      "prepare": "npm run build"
+        "typedoc": "typedoc",
+        "build": "tsc",
+        "test": "NODE_ENV=test jest",
+        "prepare": "npm run build"
     },
     "devDependencies": {
-        "@types/lodash": "^4.14.149",
-        "@types/node": "^13.11.0",
-        "@types/ws": "^7.2.3",
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.10.1",
         "eslint-plugin-prettier": "^3.1.2",
@@ -30,6 +27,9 @@
         "typescript": "^3.8.3"
     },
     "dependencies": {
+        "@types/lodash": "^4.14.149",
+        "@types/node": "^13.11.0",
+        "@types/ws": "^7.2.3",
         "axios": "^0.19.2",
         "eventemitter2": "^6.3.1",
         "lodash": "^4.17.15",
