@@ -1,6 +1,6 @@
 {
     "name": "bitmex-websocket-api",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Bitmex WebSocket Client",
     "repository": "https://github.com/felipembbraga/bitmex-websocket-api",
     "author": "Felipe Mendes Braga <felipe.mendes.braga@gmail.com>",
