@@ -178,6 +178,10 @@ export default class BitmexClient extends EventEmitter2 {
             });
     }
 
+    get socket() {
+        return this.wsClient;
+    }
+
     getData = (symbol: string | null, tableName?: string) => {
         const tableUsesSymbol =
             tableName && this.noSymbolTables.indexOf(tableName) === -1;
